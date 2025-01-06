@@ -41,8 +41,7 @@ public class Words {
 		return true;
 	}
 	
-	// Iterate through our selectedWord and checks if user inputed letter is in selectedWord,
-    // if yes then set it inside user-input(letters[]). If all letters are correctly guessed then return true
+	// Iterate through our selectedWord and checks if user inputed letter is in selectedWord, if yes then set it inside user-input(letters[]). If all letters are correctly guessed then return true
 	public boolean guess(char letter)
 	{
 		boolean guessedRight = false;
